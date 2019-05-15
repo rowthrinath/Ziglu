@@ -1,0 +1,12 @@
+﻿{
+  "unitTestProvider": {
+    "name": "xUnit"
+  },
+  "bindingCulture": {
+    "language": "en-us"
+  },
+  "language": {
+    "feature": "en-us"
+  },
+  "plugins": []
+}
