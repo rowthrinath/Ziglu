@@ -63,7 +63,7 @@ namespace XUnitTrainingMaterial
                     Options.AddAdditionalCapability("platform", "WIN10", true); // Supported values: "VISTA" (Windows 7), "WIN8" (Windows 8), "WIN8_1" (windows 8.1), "WIN10" (Windows 10), "LINUX" (Linux)
                     Options.AddAdditionalCapability("version", "latest", true); // for Chrome only version=latest can be used.         
                     driver = new RemoteWebDriver(
-                      new Uri("http://10.211.55.3:26187/wd/hub"), Options.ToCapabilities(), TimeSpan.FromSeconds(600));
+                      new Uri("http://10.211.55.3:4441/wd/hub"), Options.ToCapabilities(), TimeSpan.FromSeconds(600));
                     return driver;
                 default:
                     throw new ConfigurationErrorsException($"Unsupported {browser}");

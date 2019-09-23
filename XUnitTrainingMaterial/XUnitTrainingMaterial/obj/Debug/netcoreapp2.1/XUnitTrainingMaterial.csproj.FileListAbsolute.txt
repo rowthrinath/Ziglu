@@ -1,3 +1,7 @@
+C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
@@ -8,9 +12,9 @@ C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debu
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\XUnitTrainingMaterial.runtimeconfig.dev.json
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\XUnitTrainingMaterial.dll
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\bin\Debug\netcoreapp2.1\XUnitTrainingMaterial.pdb
+C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.csprojAssemblyReference.cache
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.csproj.CoreCompileInputs.cache
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.AssemblyInfoInputs.cache
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.AssemblyInfo.cs
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.dll
 C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.pdb
-C:\Users\rowth\source\repos\XUnitTrainingMaterial\XUnitTrainingMaterial\obj\Debug\netcoreapp2.1\XUnitTrainingMaterial.csprojAssemblyReference.cache
