@@ -1,0 +1,14 @@
+﻿															Difference between Abstract Class and Interface
+
+ABSTRACT CLASS																															INTERFACE
+It contains both declaration and definition part.																			It contains only a declaration part.
+Multiple inheritance is not achieved by abstract class.																		Multiple inheritance is achieved by interface.
+It contain constructor.																										It does not contain constructor.
+It can contain static members.																								It does not contain static members.
+It can contain different types of access modifiers like public, private, protected etc.										It only contains public access modifier because everything in the interface is public.
+The performance of an abstract class is fast.																				The performance of interface is slow because it requires time to search actual method in the corresponding class.
+It is used to implement the core identity of class.																			It is used to implement peripheral abilities of class.
+A class can only use one abstract class.																					A class can use multiple interface.
+If many implementations are of the same kind and use common behavior, then it is superior to use abstract class.			If many implementations only share methods, then it is superior to use Interface.
+Abstract class can contain methods, fields, constants, etc.																	Interface can only contain methods .
+It can be fully, partially or not implemented.																				It should be fully implemented.
