@@ -1,0 +1,32 @@
+﻿
+														Questions and Answers
+
+
+1) How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
+
+Below is the breakup of the time spent on technical test
+
+Total hours spent : 11 hours
+
+Requirement analysis - 2 hours
+Project setup - 2 hours
+Coding - 4 hours
+Testing and bug fixing - 2 hours
+Documentaion and delivery - 1 hour
+
+If I had more time I would have added a better reporting mechanism where test results can be viewed effectively in HTML
+
+
+
+
+2) What do you think is the most interesting trend in test automation?
+
+Test driven development where testing starts at the very early stages of development cycle. 
+DevOps driven testing as tests are continously monitoring changes in code to make sure failures are detected early in the release cycles to make efficient delivery.
+
+
+3) Please describe yourself using JSON.
+
+Easy to read data in a sturctured way
+Well controlled with respect to setting up data modal for the JSON messages
+Deserialisation is userful in extracting data for API response
