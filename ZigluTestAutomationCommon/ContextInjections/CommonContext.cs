@@ -19,6 +19,7 @@ namespace ZigluTestAutomationFramework_ZeeTAF_.Commom.Context
         public ScenarioContext ScenarioContext { get; }
         public Exception Exception { get; set; }
         public ApiAdapter ApiAdapter { get; set; }
+        public string ResponseStatus = "Success";
         public string service { get; set; }
         public string ApiHostName { get; set; }
         public string ApiKeyName { get; set; }

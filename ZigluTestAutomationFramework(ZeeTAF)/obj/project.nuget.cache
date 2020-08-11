@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VY5AzTY2miZcYZI8tbzFYGt8uiV9ucjBYgN9A5C0Jw4dqSES28G5NnxR/k2U3ZSUf7y8BOcxIikyoGAUFczGpA==",
+  "dgSpecHash": "S7sHeckieokzJt1YS8xfMoagkhYuOjg0PXSd2k1Zz4oZeR61R/LKfdB2gU2HEMs4ZDViuEyTA/YMS8+vpBqYYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj",
   "expectedPackageFiles": [
@@ -110,6 +110,7 @@
     "C:\\Users\\rowth\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
     "C:\\Users\\rowth\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\rowth\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
+    "C:\\Users\\rowth\\.nuget\\packages\\xunit.runner.console\\2.4.1\\xunit.runner.console.2.4.1.nupkg.sha512",
     "C:\\Users\\rowth\\.nuget\\packages\\xunit.skippablefact\\1.3.12\\xunit.skippablefact.1.3.12.nupkg.sha512"
   ],
   "logs": []

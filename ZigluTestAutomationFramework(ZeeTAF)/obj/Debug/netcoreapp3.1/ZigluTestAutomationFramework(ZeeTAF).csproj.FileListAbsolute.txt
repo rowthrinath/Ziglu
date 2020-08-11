@@ -17,10 +17,10 @@ C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\bin\Debug
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\bin\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).runtimeconfig.dev.json
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\bin\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\bin\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).pdb
-C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).csprojAssemblyReference.cache
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).AssemblyInfoInputs.cache
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).AssemblyInfo.cs
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).csproj.CoreCompileInputs.cache
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).pdb
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).genruntimeconfig.cache
+C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomationFramework(ZeeTAF)\obj\Debug\netcoreapp3.1\ZigluTestAutomationFramework(ZeeTAF).csprojAssemblyReference.cache

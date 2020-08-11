@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using ZigluTestAutomationFramework_ZeeTAF_.Commom;
 using TechTalk.SpecFlow;
-using ZigluTestAutomationFramework_ZeeTAF_.Commom.Context;
 using FluentAssertions;
 using Xunit.Abstractions;
-using RestSharp.Serialization.Json;
-using RestSharp.Extensions;
 using TechTalk.SpecFlow.Assist;
 using ZigluTestAutomation.Dto;
-using System.Diagnostics;
+using ZigluTestAutomationFramework_ZeeTAF_.Commom.Context;
 
 namespace ZigluTestAutomation.Step_Definitions
 {
     [Binding]
-    public sealed class FootballApi
+    public  sealed class FootballApi
     {
 
         private readonly CommonContext _commonContext;
@@ -29,6 +24,7 @@ namespace ZigluTestAutomation.Step_Definitions
             _commonContext = commoncontext;
             _scenarioContext = scenariocontext;
             _footballApiContext = footballapicontext;
+            _commonContext.service = _footballApiContext.FootballApiService;
             _commonContext.ApiHostName = _footballApiContext.FootballApiHostKeyName;
             _commonContext.ApiKeyName = _footballApiContext.FootballApiKeyName;
             _commonContext.ApiHost = _footballApiContext.FootballApiHost;
@@ -54,21 +50,21 @@ namespace ZigluTestAutomation.Step_Definitions
         [Then(@"I get a (.*) response")]
         public void ThenIGetAResponse(int statuscode)
         {
-            
+
             _commonContext.HttpStatusResponse.StatusCode.Should().Be(statuscode);
-            if (statuscode==200)
+            if (statuscode == 200)
             {
-                _footballApiContext.ResponseStatus = "Success";
+                _commonContext.ResponseStatus = "Success";
             }
             if (statuscode == 401)
             {
-                _footballApiContext.ResponseStatus = "Unauthorized";
+                _commonContext.ResponseStatus = "Unauthorized";
             }
             if (statuscode == 400)
             {
-                _footballApiContext.ResponseStatus = "Bad Request";
+                _commonContext.ResponseStatus = "Bad Request";
             }
-            output.WriteLine($"The response is a {_footballApiContext.ResponseStatus}");
+            output.WriteLine($"The response is a {_commonContext.ResponseStatus}");
         }
 
         [When(@"I get the home goals scored by the teams")]

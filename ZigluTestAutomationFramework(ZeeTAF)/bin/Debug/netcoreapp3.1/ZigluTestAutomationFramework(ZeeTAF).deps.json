@@ -15,7 +15,8 @@
           "SpecFlow": "3.3.74",
           "SpecFlow.Assist.Dynamic": "1.4.2",
           "SpecFlow.Tools.MsBuild.Generation": "3.3.74",
-          "SpecFlow.xUnit": "3.3.74"
+          "SpecFlow.xUnit": "3.3.74",
+          "xunit.runner.console": "2.4.1"
         },
         "runtime": {
           "ZigluTestAutomationFramework(ZeeTAF).dll": {}
@@ -1002,6 +1003,7 @@
           }
         }
       },
+      "xunit.runner.console/2.4.1": {},
       "Xunit.SkippableFact/1.3.12": {
         "dependencies": {
           "Validation": "2.4.18",
@@ -1763,6 +1765,13 @@
       "sha512": "sha512-252Dzn7i5bMPKtAL15aOP3qJhxKd+57I8ldwIQRJa745JxQuiBu5Da0vtIISVTtc3buRSkBwVnD9iUzsEmCzZA==",
       "path": "xunit.extensibility.execution/2.4.0",
       "hashPath": "xunit.extensibility.execution.2.4.0.nupkg.sha512"
+    },
+    "xunit.runner.console/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6yGe+Vx250m1zG/nV8FH1XlftJFoidCThpRdWEIwIFE/rc/lYSuL0M+D1gMDNmZgERAR/sHR18Q/etqd6lxaNA==",
+      "path": "xunit.runner.console/2.4.1",
+      "hashPath": "xunit.runner.console.2.4.1.nupkg.sha512"
     },
     "Xunit.SkippableFact/1.3.12": {
       "type": "package",

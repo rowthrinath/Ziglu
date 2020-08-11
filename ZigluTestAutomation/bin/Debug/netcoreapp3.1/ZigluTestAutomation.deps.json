@@ -22,8 +22,8 @@
           "SpecFlow.xUnit": "3.3.74",
           "ZigluTestAutomationCommon": "1.0.0",
           "coverlet.collector": "1.2.0",
-          "xunit": "2.4.0",
           "xunit.abstractions": "2.0.3",
+          "xunit.runner.console": "2.4.1",
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
@@ -1301,27 +1301,11 @@
           }
         }
       },
-      "xunit/2.4.0": {
-        "dependencies": {
-          "xunit.analyzers": "0.10.0",
-          "xunit.assert": "2.4.0",
-          "xunit.core": "2.4.0"
-        }
-      },
       "xunit.abstractions/2.0.3": {
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
-          }
-        }
-      },
-      "xunit.analyzers/0.10.0": {},
-      "xunit.assert/2.4.0": {
-        "runtime": {
-          "lib/netstandard2.0/xunit.assert.dll": {
-            "assemblyVersion": "2.4.0.4049",
-            "fileVersion": "2.4.0.4049"
           }
         }
       },
@@ -1353,6 +1337,7 @@
           }
         }
       },
+      "xunit.runner.console/2.4.1": {},
       "xunit.runner.visualstudio/2.4.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.5.0"
@@ -1374,13 +1359,16 @@
         "dependencies": {
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.5.0",
+          "RestSharp": "106.11.4",
+          "RestSharp.Newtonsoft.Json": "1.5.1",
+          "RestSharp.Serializers.NewtonsoftJson": "106.11.4",
           "SpecFlow": "3.3.74",
           "SpecFlow.Assist.Dynamic": "1.4.2",
           "SpecFlow.Tools.MsBuild.Generation": "3.3.74",
           "SpecFlow.xUnit": "3.3.74",
           "ZigluTestAutomationFramework(ZeeTAF)": "1.0.0",
           "coverlet.collector": "1.2.0",
-          "xunit": "2.4.0",
+          "xunit.abstractions": "2.0.3",
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
@@ -2208,33 +2196,12 @@
       "path": "validation/2.4.18",
       "hashPath": "validation.2.4.18.nupkg.sha512"
     },
-    "xunit/2.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NL00nGsDsyWc1CWxz5FXXjLpW9oFG18WJoTPCyhNv4KGP/e5iLJqAqgM1uaJZyQ6WaTtmWIy4yjYP3RdcaT7Vw==",
-      "path": "xunit/2.4.0",
-      "hashPath": "xunit.2.4.0.nupkg.sha512"
-    },
     "xunit.abstractions/2.0.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
       "path": "xunit.abstractions/2.0.3",
       "hashPath": "xunit.abstractions.2.0.3.nupkg.sha512"
-    },
-    "xunit.analyzers/0.10.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4/IDFCJfIeg6bix9apmUtIMwvOsiwqdEexeO/R2D4GReIGPLIRODTpId/l4LRSrAJk9lEO3Zx1H0Zx6uohJDNg==",
-      "path": "xunit.analyzers/0.10.0",
-      "hashPath": "xunit.analyzers.0.10.0.nupkg.sha512"
-    },
-    "xunit.assert/2.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Swvkm6iTjZr8TiUj5vMnmfG+2dD4s/BIBgsVOzTxxmoq2ndGsmM2WIL4wuqJ8RhxydWIDOPpIaaytjT2pMTEdg==",
-      "path": "xunit.assert/2.4.0",
-      "hashPath": "xunit.assert.2.4.0.nupkg.sha512"
     },
     "xunit.core/2.4.0": {
       "type": "package",
@@ -2256,6 +2223,13 @@
       "sha512": "sha512-252Dzn7i5bMPKtAL15aOP3qJhxKd+57I8ldwIQRJa745JxQuiBu5Da0vtIISVTtc3buRSkBwVnD9iUzsEmCzZA==",
       "path": "xunit.extensibility.execution/2.4.0",
       "hashPath": "xunit.extensibility.execution.2.4.0.nupkg.sha512"
+    },
+    "xunit.runner.console/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6yGe+Vx250m1zG/nV8FH1XlftJFoidCThpRdWEIwIFE/rc/lYSuL0M+D1gMDNmZgERAR/sHR18Q/etqd6lxaNA==",
+      "path": "xunit.runner.console/2.4.1",
+      "hashPath": "xunit.runner.console.2.4.1.nupkg.sha512"
     },
     "xunit.runner.visualstudio/2.4.0": {
       "type": "package",

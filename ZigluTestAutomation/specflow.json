@@ -1,13 +1,15 @@
 ﻿{
-    "bindingCulture":
-    {
-        "language" :"en-us"
-    },
-  "language": {
-    "feature": "en-us"
+  "bindingCulture": {
+    "language": "en-US"
   },
-
+  "language": {
+    "feature": "en-US"
+  },
+  "unitTestProvider": {
+    "name": "xUnit"
+  },
   "stepAssemblies": [
+
     {
       "assembly": "ZigluTestAutomationCommon"
     }

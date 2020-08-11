@@ -1,7 +1,7 @@
-﻿using ZigluTestAutomationFramework_ZeeTAF_.Commom.Context;
+﻿
 using ZigluTestAutomationFramework_ZeeTAF_.Adapters;
 using RestSharp;
-using ZigluTestAutomation;
+using ZigluTestAutomationFramework_ZeeTAF_.Commom.Context;
 
 namespace ZigluTestAutomationFramework_ZeeTAF_.Commom
 {

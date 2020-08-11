@@ -133,8 +133,10 @@ C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\Te
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\CommonStepDefinitions\ApiActions.cs
+C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\Features\FootballApi.feature.cs
+C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\App.config
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\ZigluTestAutomation.dll.config
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\ZigluTestAutomation.deps.json
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\ZigluTestAutomation.runtimeconfig.json
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\ZigluTestAutomation.runtimeconfig.dev.json
@@ -178,7 +180,6 @@ C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\Sy
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\Utf8Json.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\Validation.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
-C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.core.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
 C:\Users\rowth\source\repos\Ziglu\ZigluTestAutomation\bin\Debug\netcoreapp3.1\Xunit.SkippableFact.dll

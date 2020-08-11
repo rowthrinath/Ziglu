@@ -19,7 +19,6 @@ namespace ZigluTestAutomation
         {
             _commonContext = commoncontext;
             _footballApiContext = footballapicontext;
-            _restClient = new RestClient();           
         }
 
         public void ExtractHighestScoringTeamsHome(InputParams inputParams)
@@ -44,8 +43,7 @@ namespace ZigluTestAutomation
 
 
         public IRestResponse<LeaugeScoresDtoApi> GetHighestScoringTeamsHome(string endpoint)
-        {
-            ///Need to refactor as this is duplicated
+        {            
             _restClient = _commonContext.ApiAdapter.SetRestClient(_commonContext.service);
             IRestRequest _restRequest = _commonContext.ApiAdapter.SetApiRequest(endpoint, Method.GET,
                _commonContext.ApiHostName, _commonContext.ApiKeyName, _commonContext.ApiHost, _commonContext.ApiKey);
@@ -66,7 +64,6 @@ namespace ZigluTestAutomation
 
         public IRestResponse<CoachDetailsDtoApi> GetCoachIdFromCoachName(string endpoint = "v2/coachs/search/Howe")
         {
-            ///Need to refactor as this is duplicated
             _restClient = _commonContext.ApiAdapter.SetRestClient(_commonContext.service);
             IRestRequest _restRequest = _commonContext.ApiAdapter.SetApiRequest(endpoint, Method.GET,
                _commonContext.ApiHostName, _commonContext.ApiKeyName, _commonContext.ApiHost, _commonContext.ApiKey);
@@ -76,7 +73,6 @@ namespace ZigluTestAutomation
 
         public IRestResponse<TrophiesDtoApi> GetCoachTrophies(string endpoint)
         {
-            ///Need to refactor as this is duplicated
             _restClient = _commonContext.ApiAdapter.SetRestClient(_commonContext.service);
             IRestRequest _restRequest = _commonContext.ApiAdapter.SetApiRequest(endpoint, Method.GET,
                _commonContext.ApiHostName, _commonContext.ApiKeyName, _commonContext.ApiHost, _commonContext.ApiKey);

@@ -56,6 +56,18 @@
               "target": "Package",
               "version": "[16.5.0, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            },
+            "RestSharp.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "RestSharp.Serializers.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            },
             "SpecFlow": {
               "target": "Package",
               "version": "[3.3.74, )"
@@ -76,9 +88,15 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
-            "xunit": {
+            "xunit.abstractions": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.0.3, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
@@ -175,6 +193,12 @@
             "SpecFlow.xUnit": {
               "target": "Package",
               "version": "[3.3.74, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [

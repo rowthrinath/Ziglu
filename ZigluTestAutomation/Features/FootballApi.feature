@@ -8,6 +8,7 @@
 Scenario: Test to check GET method on release endpoint
 	When I submit a get on v2/teams/league/2 endpoint
 	Then I get a 200 response
+	
 
 	@API
 Scenario: To find the most goal scored team in home games
