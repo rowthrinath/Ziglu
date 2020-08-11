@@ -6,10 +6,10 @@ namespace ZigluTestAutomation.Dto
 {
    public  class TrophiesOutput
     {
-        public string leauge { get; set; }
-        public string country { get; set; }
-        public string season { get; set; }
-        public string place { get; set; }
+        public string Leauge { get; set; }
+        public string Country { get; set; }
+        public string Season { get; set; }
+        public string Place { get; set; }
 
     }
 }

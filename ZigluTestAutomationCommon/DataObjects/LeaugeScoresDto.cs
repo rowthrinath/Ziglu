@@ -13,19 +13,15 @@ namespace ZigluTestAutomation
     public class Api
     {
         public string results { get; set; }
-        public statistics statistics { get; set; }
-       
+        public statistics statistics { get; set; }     
     }
 
   public  class statistics
     {
-
         public Matchs Matchs { get; set; }
         public Goals Goals { get; set; }
         public GoalsAverage GoalsAverage { get; set; }
     }
-
-
 
     public class Matchs
     {
@@ -35,11 +31,10 @@ namespace ZigluTestAutomation
         public List<Loses> Loses { get; set; }
     }
     public class MatchsPlayed
-        {
- 
-            public int home { get; set; }
-            public int away { get; set; }
-            public int total { get; set; }
+        { 
+        public int home { get; set; }
+        public int away { get; set; }
+        public int total { get; set; }
         }
 
  

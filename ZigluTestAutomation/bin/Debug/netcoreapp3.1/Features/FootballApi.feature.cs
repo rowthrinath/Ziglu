@@ -78,7 +78,7 @@ namespace ZigluTestAutomation.Features
         public virtual void FeatureBackground()
         {
 #line 4
- #line hidden
+#line hidden
 #line 5
  testRunner.Given("I have access  to football api service", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
@@ -120,7 +120,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 4
- this.FeatureBackground();
+this.FeatureBackground();
 #line hidden
 #line 9
  testRunner.When("I submit a get on v2/teams/league/2 endpoint", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -142,7 +142,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "API"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To find the most goal scored team in home games", null, tagsOfScenario, argumentsOfScenario);
-#line 14
+#line 13
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -163,7 +163,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 4
- this.FeatureBackground();
+this.FeatureBackground();
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "Team1",
@@ -179,10 +179,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "v2/statistics/4/85",
                             "v2/statistics/36/188",
                             "v2/statistics/2/33"});
-#line 15
+#line 14
   testRunner.When("I get the home goals scored by the teams", ((string)(null)), table1, "When ");
 #line hidden
-#line 18
+#line 17
   testRunner.Then("I should be able to find the most scored team in home games", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -199,7 +199,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "API"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To find the team in the best current form", null, tagsOfScenario, argumentsOfScenario);
-#line 21
+#line 20
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -220,7 +220,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 4
- this.FeatureBackground();
+this.FeatureBackground();
 #line hidden
                 TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                             "Team1",
@@ -236,10 +236,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "v2/statistics/4/85",
                             "v2/statistics/36/188",
                             "v2/statistics/2/33"});
-#line 22
+#line 21
   testRunner.When("I get the wins by the teams", ((string)(null)), table2, "When ");
 #line hidden
-#line 25
+#line 24
   testRunner.Then("I should be able to find the team in form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -256,7 +256,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "Api"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To find the results and tropies of football manager Eddie Howe", null, tagsOfScenario, argumentsOfScenario);
-#line 28
+#line 27
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -277,12 +277,12 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 4
- this.FeatureBackground();
+this.FeatureBackground();
 #line hidden
-#line 29
+#line 28
   testRunner.When("I have the results and tropies of Eddie Howe", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 30
+#line 29
   testRunner.Then("I should be able to see the results and tropies of Eddie Howe output", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

@@ -14,7 +14,6 @@ namespace ZigluTestAutomationFramework_ZeeTAF_.Commom
             _commonContext.ApiAdapter = new ApiAdapter(_commonContext.service);
             
         }
-
         public IRestResponse GetMethod(string endpoint)
         {
             RestClient restClient = _commonContext.ApiAdapter.SetRestClient(_commonContext.service);

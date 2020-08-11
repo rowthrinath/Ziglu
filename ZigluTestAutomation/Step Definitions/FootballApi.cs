@@ -12,7 +12,6 @@ namespace ZigluTestAutomation.Step_Definitions
     [Binding]
     public  sealed class FootballApi
     {
-
         private readonly CommonContext _commonContext;
         private readonly ScenarioContext _scenarioContext;
         private readonly FootballApiContext _footballApiContext;
@@ -37,8 +36,7 @@ namespace ZigluTestAutomation.Step_Definitions
         public void GivenIHaveAccessToFootballApiService()
         {
             _commonContext.service = _footballApiContext.FootballApiService;
-            _commonContext.ServiceMethods = new ServiceMethods(_commonContext);
-           
+            _commonContext.ServiceMethods = new ServiceMethods(_commonContext);      
         }
 
         [When(@"I submit a get on (.*) endpoint")]
@@ -50,7 +48,6 @@ namespace ZigluTestAutomation.Step_Definitions
         [Then(@"I get a (.*) response")]
         public void ThenIGetAResponse(int statuscode)
         {
-
             _commonContext.HttpStatusResponse.StatusCode.Should().Be(statuscode);
             if (statuscode == 200)
             {
@@ -72,9 +69,9 @@ namespace ZigluTestAutomation.Step_Definitions
          {
             _footballApiContext.InputParams = table.CreateInstance<InputParams> ();
             _apiMethods.ExtractHighestScoringTeamsHome(_footballApiContext.InputParams);
-            _footballApiContext.leauge1Score = _footballApiContext.leauge1Response.Data.Api.statistics.Goals.GoalsFor.FirstOrDefault().home;
-            _footballApiContext.leauge2Score = _footballApiContext.leauge2Response.Data.Api.statistics.Goals.GoalsFor.FirstOrDefault().home;
-            _footballApiContext.leauge3Score = _footballApiContext.leauge3Response.Data.Api.statistics.Goals.GoalsFor.FirstOrDefault().home;
+            _footballApiContext.Leauge1Score = _footballApiContext.Leauge1Response.Data.Api.statistics.Goals.GoalsFor.FirstOrDefault().home;
+            _footballApiContext.Leauge2Score = _footballApiContext.Leauge2Response.Data.Api.statistics.Goals.GoalsFor.FirstOrDefault().home;
+            _footballApiContext.Leauge3Score = _footballApiContext.Leauge3Response.Data.Api.statistics.Goals.GoalsFor.FirstOrDefault().home;
         }
 
 
@@ -82,11 +79,11 @@ namespace ZigluTestAutomation.Step_Definitions
         public void ThenIShouldBeBeAbleFindTheMostScoredTeam()
         {
             
-            if (_footballApiContext.leauge1Score > _footballApiContext.leauge2Score && _footballApiContext.leauge1Score > _footballApiContext.leauge3Score)
+            if (_footballApiContext.Leauge1Score > _footballApiContext.Leauge2Score && _footballApiContext.Leauge1Score > _footballApiContext.Leauge3Score)
             {
                 _footballApiContext.HighestScoringTeamInHome = _footballApiContext.InputParams.Team1;
             }
-            else if (_footballApiContext.leauge2Score > _footballApiContext.leauge1Score && _footballApiContext.leauge2Score > _footballApiContext.leauge3Score)
+            else if (_footballApiContext.Leauge2Score > _footballApiContext.Leauge1Score && _footballApiContext.Leauge2Score > _footballApiContext.Leauge3Score)
             {
                 _footballApiContext.HighestScoringTeamInHome = _footballApiContext.InputParams.Team2;
             }
@@ -102,20 +99,20 @@ namespace ZigluTestAutomation.Step_Definitions
         {
             _footballApiContext.InputParams = table.CreateInstance<InputParams>();
             _apiMethods.ExtractHighestScoringTeamsHome(_footballApiContext.InputParams);
-            _footballApiContext.leauge1Wins = _footballApiContext.leauge1Response.Data.Api.statistics.Matchs.Wins.FirstOrDefault().total;
-            _footballApiContext.leauge2Wins = _footballApiContext.leauge2Response.Data.Api.statistics.Matchs.Wins.FirstOrDefault().total;
-            _footballApiContext.leauge3Wins = _footballApiContext.leauge3Response.Data.Api.statistics.Matchs.Wins.FirstOrDefault().total;
+            _footballApiContext.Leauge1Wins = _footballApiContext.Leauge1Response.Data.Api.statistics.Matchs.Wins.FirstOrDefault().total;
+            _footballApiContext.Leauge2Wins = _footballApiContext.Leauge2Response.Data.Api.statistics.Matchs.Wins.FirstOrDefault().total;
+            _footballApiContext.Leauge3Wins = _footballApiContext.Leauge3Response.Data.Api.statistics.Matchs.Wins.FirstOrDefault().total;
 
         }
 
         [Then(@"I should be able to find the team in form")]
         public void ThenIShouldBeAbleToFindTheTeamInForm()
         {
-            if (_footballApiContext.leauge1Wins > _footballApiContext.leauge2Wins && _footballApiContext.leauge1Wins > _footballApiContext.leauge3Wins)
+            if (_footballApiContext.Leauge1Wins > _footballApiContext.Leauge2Wins && _footballApiContext.Leauge1Wins > _footballApiContext.Leauge3Wins)
             {
                 _footballApiContext.HighestWinningTeam = _footballApiContext.InputParams.Team1;
             }
-            else if (_footballApiContext.leauge2Wins > _footballApiContext.leauge1Wins && _footballApiContext.leauge2Wins > _footballApiContext.leauge3Wins)
+            else if (_footballApiContext.Leauge2Wins > _footballApiContext.Leauge1Wins && _footballApiContext.Leauge2Wins > _footballApiContext.Leauge3Wins)
             {
                 _footballApiContext.HighestWinningTeam = _footballApiContext.InputParams.Team2;
             }
@@ -132,13 +129,13 @@ namespace ZigluTestAutomation.Step_Definitions
             _apiMethods.ExtractCoachDetails();
             var coachId = _footballApiContext.CoachResponse.Data.Api.coachs.FirstOrDefault().id;
           _apiMethods.GetTropiesByCoach($"v2/trophies/coach/{coachId}");
-            _footballApiContext.trophiesForCoach = _footballApiContext.TrophiesResponse.Data.Api.Trophies;
+            _footballApiContext.TrophiesForCoach = _footballApiContext.TrophiesResponse.Data.Api.Trophies;
         }
 
         [Then(@"I should be able to see the results and tropies of Eddie Howe output")]
         public void ThenIShouldBeAbleToSeeTheResultsAndTropiesOfEddieHoweOutput()
         {
-            foreach (var item in _footballApiContext.trophiesForCoach)
+            foreach (var item in _footballApiContext.TrophiesForCoach)
             {
                 output.WriteLine($" Leauge in which trophy was won : { item.leauge}");
                 output.WriteLine($" Country in which trophy was won : { item.country}");

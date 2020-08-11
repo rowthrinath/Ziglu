@@ -7,8 +7,7 @@ namespace ZigluTestAutomation
 
     public class CoachDetailsDtoApi
     {
-        public CoachApi Api { get; set; }
-        
+        public CoachApi Api { get; set; }   
     }
 
     public class CoachApi
@@ -18,9 +17,7 @@ namespace ZigluTestAutomation
         public List<Career> career { get; set; }
     }
 
-
-
-  public  class Coachs
+    public  class Coachs
     {
         public int id { get; set; }
         public string  name { get; set; }
@@ -36,8 +33,6 @@ namespace ZigluTestAutomation
         public List<Team> team { get; set; }
     }
 
-
-
     public class Team
     {
         public int id { get; set; }
@@ -46,17 +41,14 @@ namespace ZigluTestAutomation
 
     public class Career
         {
-            public List<CareerTeam> team { get; set; }
-            public string start { get; set; }
-            public string end { get; set; }
+        public List<CareerTeam> team { get; set; }
+        public string start { get; set; }
+        public string end { get; set; }
     }
-
  
     public class CareerTeam
     {
         public int id { get; set; }
         public string name { get; set; }
     }
-
-
 }

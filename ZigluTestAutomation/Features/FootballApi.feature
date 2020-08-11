@@ -1,7 +1,7 @@
 ﻿Feature: Football API Tests
 	In order to test football API operations
 
-	Background: 
+Background: 
 	Given I have access  to football api service
 
 @Api
@@ -9,8 +9,7 @@ Scenario: Test to check GET method on release endpoint
 	When I submit a get on v2/teams/league/2 endpoint
 	Then I get a 200 response
 	
-
-	@API
+@API
 Scenario: To find the most goal scored team in home games
 		When I get the home goals scored by the teams
 		| Team1               | Team2             | Team3             | Team1Endpoint      | Team2Endpoint        | Team3Endpoint      |

@@ -14,11 +14,11 @@ namespace ZigluTestAutomationFramework_ZeeTAF_.Commom.Context
         }
 
         public IRestResponse HttpStatusResponse { get; set; }
-        public IRestResponse<LeaugeScoresDtoApi> HttpResponse { get; set; }
         public ServiceMethods ServiceMethods { get; set; }
         public ScenarioContext ScenarioContext { get; }
         public Exception Exception { get; set; }
         public ApiAdapter ApiAdapter { get; set; }
+
         public string ResponseStatus = "Success";
         public string service { get; set; }
         public string ApiHostName { get; set; }

@@ -1,6 +1,5 @@
 ﻿using RestSharp;
 
-
 namespace ZigluTestAutomationFramework_ZeeTAF_.Adapters
 {
     public class ApiAdapter

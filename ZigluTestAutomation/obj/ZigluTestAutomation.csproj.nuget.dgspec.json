@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj": {}
+    "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj": {
+    "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj",
+        "projectUniqueName": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj",
         "projectName": "ZigluTestAutomationCommon",
-        "projectPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj",
+        "projectPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj",
         "packagesPath": "C:\\Users\\rowth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\obj\\",
+        "outputPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,8 +33,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj": {
-                "projectPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj"
+              "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj": {
+                "projectPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj": {
+    "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj",
+        "projectUniqueName": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj",
         "projectName": "ZigluTestAutomationFramework(ZeeTAF)",
-        "projectPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj",
+        "projectPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\ZigluTestAutomationFramework(ZeeTAF).csproj",
         "packagesPath": "C:\\Users\\rowth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\obj\\",
+        "outputPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationFramework(ZeeTAF)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -220,14 +220,14 @@
         }
       }
     },
-    "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj": {
+    "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj",
+        "projectUniqueName": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj",
         "projectName": "ZigluTestAutomation",
-        "projectPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj",
+        "projectPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomation\\ZigluTestAutomation.csproj",
         "packagesPath": "C:\\Users\\rowth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomation\\obj\\",
+        "outputPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -249,8 +249,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj": {
-                "projectPath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj"
+              "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj": {
+                "projectPath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj"
               }
             }
           }

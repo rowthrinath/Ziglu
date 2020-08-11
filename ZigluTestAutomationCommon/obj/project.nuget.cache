@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HVz1ERi70EApagp0SSeflZLY3bKIq5zKmhIMaYV8F1cC5TDVgkmjhwPxs+OlZ6h8xDNX0p+Sv+o0Cj94stRH0w==",
+  "dgSpecHash": "ISUlHk/qxWOjrSMjiGb1mw6lFJUmmCQqVR1M2PItfkmjQ0IrwDboH7PGCxZ89teniReekGZS8LFFjiFJdNR6aA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rowth\\source\\repos\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj",
+  "projectFilePath": "C:\\Users\\rowth\\source\\repos\\ZigluTest\\Ziglu\\ZigluTestAutomationCommon\\ZigluTestAutomationCommon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rowth\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\rowth\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
