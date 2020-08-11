@@ -15,8 +15,11 @@ How to create a local code base ? Open command line and process as (tommy.verral
 
 
 How to run tests locally : 
+
 Step 1: Open ZigluTestAutomation solution 
+
 Step 2: Build project
+
 Step 3 : Open test explorer and run the tests
 
 
